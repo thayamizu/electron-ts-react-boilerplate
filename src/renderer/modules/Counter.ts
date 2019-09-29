@@ -3,7 +3,6 @@ import * as ReduxActions from "redux-actions";
 // Counter State Type
 export interface CounterState {
     counter: number;
-    index: n;
 }
 
 /**
