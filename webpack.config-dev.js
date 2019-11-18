@@ -9,7 +9,7 @@ const developConfig = Object.assign(baseConfig, {
 // browser process
 const main = Object.assign({}, developConfig, {
   target: "electron-main",
-  entry: { main: "./src/main/Main.ts" },
+  entry: { main: "./src/browser/Main.ts" },
   module: {
     rules: [
       // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
