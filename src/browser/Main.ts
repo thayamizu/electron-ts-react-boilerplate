@@ -51,7 +51,7 @@ class Main {
             minWidth: 500,
             minHeight: 200,
             acceptFirstMouse: true,
-            titleBarStyle: "hidden"
+            titleBarStyle: "hidden",
         });
 
         this.mainWindow.loadURL(this.mainURL);

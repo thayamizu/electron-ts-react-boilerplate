@@ -5,11 +5,11 @@ import { Counter } from "renderer/components/Counter";
 import { CounterActionDispatcher } from "renderer/dispatcher/Counter";
 
 function mapStateToProps(state: Store.StoreType) {
-  return { state: state.getState() };
+    return { state: state.getState() };
 }
 
 function mapDispatchToProps(dispatch: Redux.Dispatch<Redux.Action>) {
-  return { actions: new CounterActionDispatcher(dispatch) };
+    return { actions: new CounterActionDispatcher(dispatch) };
 }
 
 export default ReactRedux.connect(mapStateToProps, mapDispatchToProps)(Counter);
