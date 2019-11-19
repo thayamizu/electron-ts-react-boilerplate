@@ -64,7 +64,7 @@ export class CounterModel {
  */
 export enum CounterActionNames {
     Increment = "Counter/Increment",
-    Decrement = "Counter/Decrement"
+    Decrement = "Counter/Decrement",
 }
 
 // Increment Action
@@ -85,7 +85,7 @@ export const counterReducer = ReduxActions.handleActions<CounterModel, void>(
 
         [CounterActionNames.Decrement]: (state: CounterModel): CounterModel => {
             return state.decrement();
-        }
+        },
     },
     new CounterModel({ counter: 0 })
 );

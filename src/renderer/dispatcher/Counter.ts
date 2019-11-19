@@ -1,4 +1,4 @@
-import * as Redux from "redux";
+import * as ReduxActions from "redux-actions";
 import * as Actions from "renderer/modules/Counter";
 
 /**
@@ -8,14 +8,14 @@ import * as Actions from "renderer/modules/Counter";
  * @class CounterActionDispatcher
  */
 export class CounterActionDispatcher {
-    private dispatch: Redux.Dispatch<Redux.Action<string>>;
+    private dispatch: (action: ReduxActions.Action<void>) => void;
 
     /**
      *Creates an instance of CounterController.
-     * @param {Redux.Dispatch<Redux.Action<string>>} dispatch
+     * @param {Redux.Dispatch<Redux.Action<void>>} dispatch
      * @memberof CounterController
      */
-    public constructor(dispatch: Redux.Dispatch<Redux.Action<string>>) {
+    public constructor(dispatch: (action: ReduxActions.Action<void>) => void) {
         this.dispatch = dispatch;
     }
 
