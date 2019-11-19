@@ -1,4 +1,24 @@
-.vscode
-dist
-build
-node_modules
+# ignore directories
+.vscode/
+dist/
+build/
+node_modules/
+
+# ignore files
+TODO
+todo
+.env
+*.log
+*.sdf
+*.tlog
+*.obj
+*.ilk
+*.lastbuildstate
+*.pdb
+*.pch
+*.user
+*.unsuccessfulbuild
+*.sdf
+*.opensdf
+*.idb
+*.ipch
