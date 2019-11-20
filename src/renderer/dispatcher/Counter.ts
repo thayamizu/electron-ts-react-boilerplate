@@ -23,7 +23,7 @@ export class CounterActionDispatcher {
      * On click decrment button.
      *
      */
-    public onClickDecrement = (event: React.MouseEvent<HTMLElement>): void => {
+    public onClickDecrement = (): void => {
         this.dispatch(Actions.decrement());
     };
 
@@ -31,7 +31,7 @@ export class CounterActionDispatcher {
      * On click increment button.
      *
      */
-    public onClickIncrement = (event: React.MouseEvent<HTMLElement>): void => {
+    public onClickIncrement = (): void => {
         this.dispatch(Actions.increment());
     };
 }

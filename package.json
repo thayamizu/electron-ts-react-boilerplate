@@ -69,6 +69,7 @@
     "license": "MIT",
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
+            "npm run format",
             "eslint --fix ",
             "git add"
         ]
