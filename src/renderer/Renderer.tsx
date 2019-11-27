@@ -9,10 +9,10 @@ import { createMuiTheme } from "@material-ui/core";
 const appRoot = document.getElementById("app");
 const theme = createMuiTheme({});
 render(
-  <Provider store={Store.counterStore}>
-    <styles.ThemeProvider theme={theme}>
-      <App />
-    </styles.ThemeProvider>
-  </Provider>,
-  appRoot
+    <Provider store={Store.counterStore}>
+        <styles.ThemeProvider theme={theme}>
+            <App />
+        </styles.ThemeProvider>
+    </Provider>,
+    appRoot
 );
