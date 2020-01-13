@@ -26,7 +26,7 @@
     "devtron": "1.4.0",
     "electron": "6.0.10",
     "electron-debug": "3.0.1",
-    "electron-packager": "14.0.6",
+    "electron-packager": "14.2.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "enzyme-to-json": "3.4.0",
