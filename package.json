@@ -48,7 +48,7 @@
     "source-map-loader": "0.2.4",
     "spectron": "8.0.0",
     "ts-jest": "24.3.0",
-    "typescript": "3.6.3",
+    "typescript": "3.7.5",
     "typescript-formatter": "7.2.2",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.9",
