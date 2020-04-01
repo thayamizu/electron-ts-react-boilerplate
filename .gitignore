@@ -1,4 +1,7 @@
+## ingore directories
 .vscode
 dist
 build
 node_modules
+## ingore files
+package-lock.json
