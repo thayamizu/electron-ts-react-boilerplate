@@ -1,5 +1,16 @@
 {
   "extends": [
-    "config:base"
-  ]
+      "config:base"
+  ],
+  "labels": [
+      "renovate"
+  ],
+  "patch": {
+      "automerge": true,
+      "groupName": "all patch dependencies"
+  },
+  "prHourlyLimit": 0,
+  "requiredStatusChecks": true,
+  "separateMinorPatch": true,
+  "assignees": ["@t_hayamizu"]
 }
