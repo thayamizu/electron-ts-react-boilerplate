@@ -17,13 +17,15 @@ module.exports = {
         __filename: false,
     },
     plugins: [
-        new CopyWebpackPlugin([
-            { from: "src/assets", to: "assets" },
-            { from: "src/renderer/index.html", to: "index.html" },
-            { from: "package.json", to: "package.json" },
-            { from: "readme.md", to: "readme.md" },
-            { from: "license", to: "license" },
-        ]),
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: "src/assets", to: "assets" },
+                { from: "src/renderer/index.html", to: "index.html" },
+                { from: "package.json", to: "package.json" },
+                { from: "readme.md", to: "readme.md" },
+                { from: "license", to: "license" },
+            ],
+        }),
     ],
 
     // When importing a module whose path matches one of the following, just
