@@ -45,7 +45,7 @@
     "react-router": "5.1.2",
     "redux": "4.0.5",
     "redux-actions": "2.6.5",
-    "source-map-loader": "0.2.4",
+    "source-map-loader": "1.1.2",
     "spectron": "10.0.1",
     "ts-jest": "25.3.1",
     "typescript": "3.8.3",
