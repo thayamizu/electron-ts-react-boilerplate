@@ -5,13 +5,27 @@
     "labels": [
         "renovate"
     ],
-    "patch": {
-        "automerge": true,
-        "groupName": "all patch dependencies"
-    },
+    "packageRules": [
+        {
+            "groupName": "automerge patch and minor dependencies",
+            "automerge": true,
+            "updateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ]
+        }
+    ],
     "prHourlyLimit": 0,
     "separateMinorPatch": true,
     "assignees": [
         "@t_hayamizu"
+    ],
+    "baseBranches": [
+        "develop"
+    ],
+    "schedule": [
+        " every weekend"
     ]
 }
