@@ -1,5 +1,5 @@
-import { CounterActionDispatcher } from "renderer/dispatcher/Counter";
-import * as CounterModule from "renderer/modules/Counter";
+import { CounterActionDispatcher } from "renderer/containers/CounterActionDispatcher";
+import * as CounterModule from "renderer/containers/CounterModule";
 
 test("CounterActionDispatcher", () => {
     const dispatcher = jest.fn();

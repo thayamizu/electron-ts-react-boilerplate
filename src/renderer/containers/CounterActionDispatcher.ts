@@ -1,5 +1,5 @@
 import * as ReduxActions from "redux-actions";
-import * as Actions from "renderer/modules/Counter";
+import * as Actions from "renderer/containers/CounterModule";
 
 /**
  *

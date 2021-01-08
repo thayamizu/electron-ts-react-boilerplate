@@ -1,7 +1,7 @@
 import * as Enzyme from "enzyme";
 import * as React from "react";
 import { Provider } from "react-redux";
-import Counter from "renderer/containers/Counter";
+import Counter from "renderer/containers/CounterContainer";
 import * as Store from "renderer/Store";
 
 const Adapter = require("enzyme-adapter-react-16");

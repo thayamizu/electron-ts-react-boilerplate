@@ -1,7 +1,7 @@
 import * as React from "react";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
-import App from "./containers/Counter";
+import App from "./pages/App";
 import * as Store from "./Store";
 import * as styles from "@material-ui/styles";
 import { createMuiTheme } from "@material-ui/core";

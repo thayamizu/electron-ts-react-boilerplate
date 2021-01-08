@@ -4,83 +4,136 @@ exports[`Counterコンポーネント 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
-      "class": "MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center",
-      "style": "width:100%",
+      "class": "MuiGrid-root",
     },
     "children": Array [
       Object {
         "attribs": Object {
-          "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12",
-          "style": "text-align:center",
+          "class": "MuiGrid-root MuiGrid-container",
         },
         "children": Array [
           Object {
-            "attribs": Object {},
+            "attribs": Object {
+              "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+            },
             "children": Array [
               Object {
-                "data": "Hello React World! ",
+                "attribs": Object {
+                  "class": "MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "h4",
+                "namespace": "http://www.w3.org/1999/xhtml",
                 "next": null,
                 "parent": [Circular],
                 "prev": null,
-                "type": "text",
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
               },
             ],
-            "name": "h1",
+            "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
-              "attribs": Object {},
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "MuiGrid-root MuiGrid-container",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+                "style": "padding:8px",
+              },
               "children": Array [
                 Object {
-                  "data": "0",
+                  "attribs": Object {
+                    "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth",
+                    "tabindex": "0",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiButton-label",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "increment",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "next": null,
                   "parent": [Circular],
                   "prev": null,
-                  "type": "text",
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
                 },
               ],
-              "name": "h2",
+              "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary",
-                  "tabindex": "0",
-                  "type": "button",
+                  "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+                  "style": "padding:8px",
                 },
                 "children": Array [
                   Object {
                     "attribs": Object {
-                      "class": "MuiButton-label",
-                    },
-                    "children": Array [
-                      Object {
-                        "data": "increment",
-                        "next": null,
-                        "parent": [Circular],
-                        "prev": null,
-                        "type": "text",
-                      },
-                    ],
-                    "name": "span",
-                    "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": null,
-                    "parent": [Circular],
-                    "prev": null,
-                    "type": "tag",
-                    "x-attribsNamespace": Object {
-                      "class": undefined,
-                    },
-                    "x-attribsPrefix": Object {
-                      "class": undefined,
-                    },
-                  },
-                ],
-                "name": "button",
-                "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
-                  "data": " ",
-                  "next": Object {
-                    "attribs": Object {
-                      "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary",
+                      "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-fullWidth",
                       "tabindex": "0",
                       "type": "button",
                     },
@@ -116,7 +169,7 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": null,
                     "parent": [Circular],
-                    "prev": [Circular],
+                    "prev": null,
                     "type": "tag",
                     "x-attribsNamespace": Object {
                       "class": undefined,
@@ -129,90 +182,43 @@ initialize {
                       "type": undefined,
                     },
                   },
-                  "parent": [Circular],
-                  "prev": [Circular],
-                  "type": "text",
-                },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
                 "parent": [Circular],
                 "prev": [Circular],
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
-                  "tabindex": undefined,
-                  "type": undefined,
+                  "style": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
-                  "tabindex": undefined,
-                  "type": undefined,
+                  "style": undefined,
                 },
               },
               "parent": [Circular],
-              "prev": [Circular],
+              "prev": null,
               "type": "tag",
-              "x-attribsNamespace": Object {},
-              "x-attribsPrefix": Object {},
-            },
-            "parent": [Circular],
-            "prev": null,
-            "type": "tag",
-            "x-attribsNamespace": Object {},
-            "x-attribsPrefix": Object {},
-          },
-          Object {
-            "attribs": Object {},
-            "children": Array [
-              Object {
-                "data": "0",
-                "next": null,
-                "parent": [Circular],
-                "prev": null,
-                "type": "text",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "style": undefined,
               },
-            ],
-            "name": "h2",
-            "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+            },
+            Object {
               "attribs": Object {
-                "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary",
-                "tabindex": "0",
-                "type": "button",
+                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+                "style": "padding:8px",
               },
               "children": Array [
                 Object {
                   "attribs": Object {
-                    "class": "MuiButton-label",
-                  },
-                  "children": Array [
-                    Object {
-                      "data": "increment",
-                      "next": null,
-                      "parent": [Circular],
-                      "prev": null,
-                      "type": "text",
-                    },
-                  ],
-                  "name": "span",
-                  "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": null,
-                  "parent": [Circular],
-                  "prev": null,
-                  "type": "tag",
-                  "x-attribsNamespace": Object {
-                    "class": undefined,
-                  },
-                  "x-attribsPrefix": Object {
-                    "class": undefined,
-                  },
-                },
-              ],
-              "name": "button",
-              "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
-                "data": " ",
-                "next": Object {
-                  "attribs": Object {
-                    "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary",
+                    "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-fullWidth",
                     "tabindex": "0",
                     "type": "button",
                   },
@@ -248,7 +254,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": null,
                   "parent": [Circular],
-                  "prev": [Circular],
+                  "prev": null,
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
@@ -261,70 +267,164 @@ initialize {
                     "type": undefined,
                   },
                 },
-                "parent": [Circular],
-                "prev": [Circular],
-                "type": "text",
-              },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
               "parent": [Circular],
-              "prev": [Circular],
+              "prev": Object {
+                "attribs": Object {
+                  "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+                  "style": "padding:8px",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth",
+                      "tabindex": "0",
+                      "type": "button",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "MuiButton-label",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "increment",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "tabindex": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "tabindex": undefined,
+                      "type": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "style": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "style": undefined,
+                },
+              },
               "type": "tag",
               "x-attribsNamespace": Object {
                 "class": undefined,
-                "tabindex": undefined,
-                "type": undefined,
+                "style": undefined,
               },
               "x-attribsPrefix": Object {
                 "class": undefined,
-                "tabindex": undefined,
-                "type": undefined,
+                "style": undefined,
               },
             },
-            "parent": [Circular],
-            "prev": Object {
-              "attribs": Object {},
-              "children": Array [
-                Object {
-                  "data": "Hello React World! ",
-                  "next": null,
-                  "parent": [Circular],
-                  "prev": null,
-                  "type": "text",
-                },
-              ],
-              "name": "h1",
-              "namespace": "http://www.w3.org/1999/xhtml",
-              "next": [Circular],
-              "parent": [Circular],
-              "prev": null,
-              "type": "tag",
-              "x-attribsNamespace": Object {},
-              "x-attribsPrefix": Object {},
-            },
-            "type": "tag",
-            "x-attribsNamespace": Object {},
-            "x-attribsPrefix": Object {},
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
           },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "MuiGrid-root MuiGrid-container",
+        },
+        "children": Array [
           Object {
             "attribs": Object {
-              "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary",
-              "tabindex": "0",
-              "type": "button",
+              "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+              "style": "padding:8px",
             },
             "children": Array [
               Object {
                 "attribs": Object {
-                  "class": "MuiButton-label",
+                  "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth",
+                  "tabindex": "0",
+                  "type": "button",
                 },
                 "children": Array [
                   Object {
-                    "data": "increment",
+                    "attribs": Object {
+                      "class": "MuiButton-label",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "increment",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
                     "next": null,
                     "parent": [Circular],
                     "prev": null,
-                    "type": "text",
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
                   },
                 ],
-                "name": "span",
+                "name": "button",
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": null,
                 "parent": [Circular],
@@ -332,19 +432,112 @@ initialize {
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
+                  "tabindex": undefined,
+                  "type": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
+                  "tabindex": undefined,
+                  "type": undefined,
                 },
               },
             ],
-            "name": "button",
+            "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": Object {
-              "data": " ",
-              "next": Object {
+              "attribs": Object {
+                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+                "style": "padding:8px",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-fullWidth",
+                    "tabindex": "0",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiButton-label",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "decrement",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "style": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "style": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {
+              "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+              "style": "padding:8px",
+            },
+            "children": Array [
+              Object {
                 "attribs": Object {
-                  "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary",
+                  "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-fullWidth",
                   "tabindex": "0",
                   "type": "button",
                 },
@@ -380,7 +573,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": null,
                 "parent": [Circular],
-                "prev": [Circular],
+                "prev": null,
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
@@ -391,291 +584,115 @@ initialize {
                   "class": undefined,
                   "tabindex": undefined,
                   "type": undefined,
-                },
-              },
-              "parent": [Circular],
-              "prev": [Circular],
-              "type": "text",
-            },
-            "parent": [Circular],
-            "prev": Object {
-              "attribs": Object {},
-              "children": Array [
-                Object {
-                  "data": "0",
-                  "next": null,
-                  "parent": [Circular],
-                  "prev": null,
-                  "type": "text",
-                },
-              ],
-              "name": "h2",
-              "namespace": "http://www.w3.org/1999/xhtml",
-              "next": [Circular],
-              "parent": [Circular],
-              "prev": Object {
-                "attribs": Object {},
-                "children": Array [
-                  Object {
-                    "data": "Hello React World! ",
-                    "next": null,
-                    "parent": [Circular],
-                    "prev": null,
-                    "type": "text",
-                  },
-                ],
-                "name": "h1",
-                "namespace": "http://www.w3.org/1999/xhtml",
-                "next": [Circular],
-                "parent": [Circular],
-                "prev": null,
-                "type": "tag",
-                "x-attribsNamespace": Object {},
-                "x-attribsPrefix": Object {},
-              },
-              "type": "tag",
-              "x-attribsNamespace": Object {},
-              "x-attribsPrefix": Object {},
-            },
-            "type": "tag",
-            "x-attribsNamespace": Object {
-              "class": undefined,
-              "tabindex": undefined,
-              "type": undefined,
-            },
-            "x-attribsPrefix": Object {
-              "class": undefined,
-              "tabindex": undefined,
-              "type": undefined,
-            },
-          },
-          Object {
-            "data": " ",
-            "next": Object {
-              "attribs": Object {
-                "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary",
-                "tabindex": "0",
-                "type": "button",
-              },
-              "children": Array [
-                Object {
-                  "attribs": Object {
-                    "class": "MuiButton-label",
-                  },
-                  "children": Array [
-                    Object {
-                      "data": "decrement",
-                      "next": null,
-                      "parent": [Circular],
-                      "prev": null,
-                      "type": "text",
-                    },
-                  ],
-                  "name": "span",
-                  "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": null,
-                  "parent": [Circular],
-                  "prev": null,
-                  "type": "tag",
-                  "x-attribsNamespace": Object {
-                    "class": undefined,
-                  },
-                  "x-attribsPrefix": Object {
-                    "class": undefined,
-                  },
-                },
-              ],
-              "name": "button",
-              "namespace": "http://www.w3.org/1999/xhtml",
-              "next": null,
-              "parent": [Circular],
-              "prev": [Circular],
-              "type": "tag",
-              "x-attribsNamespace": Object {
-                "class": undefined,
-                "tabindex": undefined,
-                "type": undefined,
-              },
-              "x-attribsPrefix": Object {
-                "class": undefined,
-                "tabindex": undefined,
-                "type": undefined,
-              },
-            },
-            "parent": [Circular],
-            "prev": Object {
-              "attribs": Object {
-                "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary",
-                "tabindex": "0",
-                "type": "button",
-              },
-              "children": Array [
-                Object {
-                  "attribs": Object {
-                    "class": "MuiButton-label",
-                  },
-                  "children": Array [
-                    Object {
-                      "data": "increment",
-                      "next": null,
-                      "parent": [Circular],
-                      "prev": null,
-                      "type": "text",
-                    },
-                  ],
-                  "name": "span",
-                  "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": null,
-                  "parent": [Circular],
-                  "prev": null,
-                  "type": "tag",
-                  "x-attribsNamespace": Object {
-                    "class": undefined,
-                  },
-                  "x-attribsPrefix": Object {
-                    "class": undefined,
-                  },
-                },
-              ],
-              "name": "button",
-              "namespace": "http://www.w3.org/1999/xhtml",
-              "next": [Circular],
-              "parent": [Circular],
-              "prev": Object {
-                "attribs": Object {},
-                "children": Array [
-                  Object {
-                    "data": "0",
-                    "next": null,
-                    "parent": [Circular],
-                    "prev": null,
-                    "type": "text",
-                  },
-                ],
-                "name": "h2",
-                "namespace": "http://www.w3.org/1999/xhtml",
-                "next": [Circular],
-                "parent": [Circular],
-                "prev": Object {
-                  "attribs": Object {},
-                  "children": Array [
-                    Object {
-                      "data": "Hello React World! ",
-                      "next": null,
-                      "parent": [Circular],
-                      "prev": null,
-                      "type": "text",
-                    },
-                  ],
-                  "name": "h1",
-                  "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": [Circular],
-                  "parent": [Circular],
-                  "prev": null,
-                  "type": "tag",
-                  "x-attribsNamespace": Object {},
-                  "x-attribsPrefix": Object {},
-                },
-                "type": "tag",
-                "x-attribsNamespace": Object {},
-                "x-attribsPrefix": Object {},
-              },
-              "type": "tag",
-              "x-attribsNamespace": Object {
-                "class": undefined,
-                "tabindex": undefined,
-                "type": undefined,
-              },
-              "x-attribsPrefix": Object {
-                "class": undefined,
-                "tabindex": undefined,
-                "type": undefined,
-              },
-            },
-            "type": "text",
-          },
-          Object {
-            "attribs": Object {
-              "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary",
-              "tabindex": "0",
-              "type": "button",
-            },
-            "children": Array [
-              Object {
-                "attribs": Object {
-                  "class": "MuiButton-label",
-                },
-                "children": Array [
-                  Object {
-                    "data": "decrement",
-                    "next": null,
-                    "parent": [Circular],
-                    "prev": null,
-                    "type": "text",
-                  },
-                ],
-                "name": "span",
-                "namespace": "http://www.w3.org/1999/xhtml",
-                "next": null,
-                "parent": [Circular],
-                "prev": null,
-                "type": "tag",
-                "x-attribsNamespace": Object {
-                  "class": undefined,
-                },
-                "x-attribsPrefix": Object {
-                  "class": undefined,
                 },
               },
             ],
-            "name": "button",
+            "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": null,
             "parent": [Circular],
             "prev": Object {
-              "data": " ",
+              "attribs": Object {
+                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+                "style": "padding:8px",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth",
+                    "tabindex": "0",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiButton-label",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "increment",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
-                "attribs": Object {
-                  "class": "MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary",
-                  "tabindex": "0",
-                  "type": "button",
-                },
-                "children": Array [
-                  Object {
-                    "attribs": Object {
-                      "class": "MuiButton-label",
-                    },
-                    "children": Array [
-                      Object {
-                        "data": "increment",
-                        "next": null,
-                        "parent": [Circular],
-                        "prev": null,
-                        "type": "text",
-                      },
-                    ],
-                    "name": "span",
-                    "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": null,
-                    "parent": [Circular],
-                    "prev": null,
-                    "type": "tag",
-                    "x-attribsNamespace": Object {
-                      "class": undefined,
-                    },
-                    "x-attribsPrefix": Object {
-                      "class": undefined,
-                    },
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "style": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "style": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "MuiGrid-root MuiGrid-container",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter",
                   },
-                ],
-                "name": "button",
-                "namespace": "http://www.w3.org/1999/xhtml",
-                "next": [Circular],
-                "parent": [Circular],
-                "prev": Object {
-                  "attribs": Object {},
                   "children": Array [
                     Object {
                       "data": "0",
@@ -685,74 +702,53 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "h2",
+                  "name": "h4",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": [Circular],
+                  "next": null,
                   "parent": [Circular],
-                  "prev": Object {
-                    "attribs": Object {},
-                    "children": Array [
-                      Object {
-                        "data": "Hello React World! ",
-                        "next": null,
-                        "parent": [Circular],
-                        "prev": null,
-                        "type": "text",
-                      },
-                    ],
-                    "name": "h1",
-                    "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": [Circular],
-                    "parent": [Circular],
-                    "prev": null,
-                    "type": "tag",
-                    "x-attribsNamespace": Object {},
-                    "x-attribsPrefix": Object {},
-                  },
+                  "prev": null,
                   "type": "tag",
-                  "x-attribsNamespace": Object {},
-                  "x-attribsPrefix": Object {},
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
                 },
-                "type": "tag",
-                "x-attribsNamespace": Object {
-                  "class": undefined,
-                  "tabindex": undefined,
-                  "type": undefined,
-                },
-                "x-attribsPrefix": Object {
-                  "class": undefined,
-                  "tabindex": undefined,
-                  "type": undefined,
-                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
               },
-              "type": "text",
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
             },
-            "type": "tag",
-            "x-attribsNamespace": Object {
-              "class": undefined,
-              "tabindex": undefined,
-              "type": undefined,
-            },
-            "x-attribsPrefix": Object {
-              "class": undefined,
-              "tabindex": undefined,
-              "type": undefined,
-            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
           },
-        ],
-        "name": "div",
-        "namespace": "http://www.w3.org/1999/xhtml",
-        "next": null,
-        "parent": [Circular],
-        "prev": null,
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
         "type": "tag",
         "x-attribsNamespace": Object {
           "class": undefined,
-          "style": undefined,
         },
         "x-attribsPrefix": Object {
           "class": undefined,
-          "style": undefined,
         },
       },
     ],
@@ -778,11 +774,9 @@ initialize {
     "type": "tag",
     "x-attribsNamespace": Object {
       "class": undefined,
-      "style": undefined,
     },
     "x-attribsPrefix": Object {
       "class": undefined,
-      "style": undefined,
     },
   },
   "_root": [Circular],
